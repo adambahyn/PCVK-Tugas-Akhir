@@ -1,0 +1,23 @@
+# Dataset tidak disertakan: total 899 MB, dua arsip >95 MB (batas keras GitHub 100 MB/file),
+# dan lisensinya (CC BY-NC-ND / CC BY-NC-SA) melarang redistribusi. Unduh sendiri dari sumber.
+Datasets/
+
+# Arsip & dump
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+~$*

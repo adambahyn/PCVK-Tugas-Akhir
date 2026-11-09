@@ -1,0 +1,407 @@
+{
+  "generated_by": "06_Audit_Dataset.py",
+  "root": "C:\\Kuliah\\Tingkat 3\\PCVK\\Project\\Datasets",
+  "datasets": {
+    "archive": {
+      "n_file": 2956,
+      "n_openable": 2956,
+      "n_corrupt": 0,
+      "formats": {
+        "JPEG": 2956
+      },
+      "bytes": 17572193,
+      "bytes_human": "16.8MB",
+      "w_min": 227,
+      "w_med": 227,
+      "w_max": 227,
+      "h_min": 227,
+      "h_med": 227,
+      "h_max": 227,
+      "w_mean": 227.0,
+      "h_mean": 227.0,
+      "dataset": "archive (public PR dataset, segmentation masks)",
+      "root": "C:\\Kuliah\\Tingkat 3\\PCVK\\Project\\Datasets\\archive",
+      "hashes": null,
+      "masks": {
+        "Train": {
+          "n_images": 1034,
+          "n_masks": 1034,
+          "n_paired": 1034,
+          "images_without_mask": 0,
+          "masks_without_image": 0,
+          "mask_area_ratio": {
+            "n_sampled": 400,
+            "min": 0.0902,
+            "mean": 0.1593,
+            "max": 0.3206,
+            "mask_sizes": {
+              "227x227": 400
+            }
+          }
+        },
+        "Test": {
+          "n_images": 444,
+          "n_masks": 444,
+          "n_paired": 444,
+          "images_without_mask": 0,
+          "masks_without_image": 0,
+          "mask_area_ratio": {
+            "n_sampled": 400,
+            "min": 0.0886,
+            "mean": 0.1567,
+            "max": 0.3247,
+            "mask_sizes": {
+              "227x227": 400
+            }
+          }
+        }
+      },
+      "feature_tables": {
+        "testImageFeatures.xlsx": {
+          "sheet": "Sheet1",
+          "n_rows": 444,
+          "n_cols": 8,
+          "columns": [
+            "ImageNum",
+            "Obscuration",
+            "Deflection",
+            "NarrowingRoots",
+            "NarrowingCanal",
+            "DiscontinuityCanal",
+            "CanalDeviation",
+            "Class"
+          ]
+        },
+        "trainImageFeatures.xlsx": {
+          "sheet": "Sheet1",
+          "n_rows": 1034,
+          "n_cols": 8,
+          "columns": [
+            "ImageNum",
+            "Obscuration",
+            "Deflection",
+            "NarrowingRoots",
+            "NarrowingCanal",
+            "DiscontinuityCanal",
+            "CanalDeviation",
+            "Class"
+          ]
+        }
+      }
+    },
+    "exan_mtm": {
+      "dataset": "ExAn-MTM (expert annotated)",
+      "n_file": 973,
+      "n_openable": 973,
+      "n_corrupt": 0,
+      "formats": {
+        "JPEG": 973
+      },
+      "bytes": 151180614,
+      "bytes_human": "144.2MB",
+      "w_min": 1991,
+      "w_med": 1991,
+      "w_max": 1991,
+      "h_min": 1127,
+      "h_med": 1127,
+      "h_max": 1127,
+      "w_mean": 1991.0,
+      "h_mean": 1127.0,
+      "yolo": {
+        "classes": {},
+        "by_split": {
+          "train": {
+            "n_images": 875,
+            "n_label_files": 875,
+            "n_objects": 1604
+          },
+          "valid": {
+            "n_images": 98,
+            "n_label_files": 98,
+            "n_objects": 180
+          }
+        },
+        "obj_per_class": {
+          "1": 1097,
+          "0": 687
+        },
+        "img_per_class": {
+          "1": 608,
+          "0": 437
+        },
+        "invalid": [],
+        "empty_label_files": 0,
+        "n_label_files": 973,
+        "n_objects": 1784,
+        "rows": []
+      },
+      "n_unique_md5": 970,
+      "n_duplicate_files": 3
+    },
+    "mtm": {
+      "dataset": "m-TM",
+      "n_file": 1317,
+      "n_openable": 1317,
+      "n_corrupt": 0,
+      "formats": {
+        "JPEG": 1317
+      },
+      "bytes": 205604574,
+      "bytes_human": "196.1MB",
+      "w_min": 1991,
+      "w_med": 1991,
+      "w_max": 1991,
+      "h_min": 1127,
+      "h_med": 1127,
+      "h_max": 1127,
+      "w_mean": 1991.0,
+      "h_mean": 1127.0,
+      "by_folder": {
+        "m-M3(L+, R+)": 810,
+        "m-M3(L+, R-)": 74,
+        "m-M3(L-, R+)": 89,
+        "m-M3(L-, R-)": 344
+      },
+      "by_cate_prefix": {
+        "cate1": 73,
+        "cate2": 215,
+        "cate3": 44,
+        "cate4": 138,
+        "cate5": 112,
+        "cate6": 41,
+        "cate7": 110,
+        "cate8": 436,
+        "cate9": 42,
+        "cate10": 106
+      },
+      "n_unique_md5": 1312,
+      "n_duplicate_files": 5
+    },
+    "multilabel": {
+      "dataset": "Multi-Label Classification and Detection of Third Molar Impaction",
+      "n_images_local": 9,
+      "subsets": {
+        "Pak-1": {
+          "classes": {
+            "0": "Mesioangular Impaction",
+            "1": "Vertical Impaction",
+            "2": "Distoangular Impaction",
+            "3": "Horizontal Impaction",
+            "4": "Buccolingual  Impaction",
+            "5": "Inverted Impaction",
+            "6": "CD-1",
+            "7": "CD-2",
+            "8": "CD-3",
+            "9": "CD-4",
+            "10": "CD-5",
+            "11": "CD-6"
+          },
+          "listed_images": 286,
+          "label_files": 111,
+          "n_objects": 204,
+          "obj_per_class": {
+            "Mesioangular Impaction": 96,
+            "Vertical Impaction": 35,
+            "Distoangular Impaction": 31,
+            "Horizontal Impaction": 29,
+            "Buccolingual  Impaction": 8,
+            "Inverted Impaction": 5
+          },
+          "img_per_class": {
+            "Mesioangular Impaction": 64,
+            "Vertical Impaction": 25,
+            "Distoangular Impaction": 26,
+            "Horizontal Impaction": 22,
+            "Buccolingual  Impaction": 7,
+            "Inverted Impaction": 3
+          },
+          "images_present": 0
+        },
+        "Pak-2": {
+          "classes": {
+            "0": "Mesioangular Impaction",
+            "1": "Vertical Impaction",
+            "2": "Distoangular Impaction",
+            "3": "Horizontal Impaction",
+            "4": "Buccolingual  Impaction",
+            "5": "Inverted Impaction",
+            "6": "CD-1",
+            "7": "CD-2",
+            "8": "CD-3",
+            "9": "CD-4",
+            "10": "CD-5",
+            "11": "CD-6"
+          },
+          "listed_images": 319,
+          "label_files": 41,
+          "n_objects": 121,
+          "obj_per_class": {
+            "Mesioangular Impaction": 28,
+            "Vertical Impaction": 9,
+            "Distoangular Impaction": 5,
+            "Horizontal Impaction": 18,
+            "Buccolingual  Impaction": 1,
+            "CD-1": 21,
+            "CD-2": 14,
+            "CD-3": 4,
+            "CD-4": 20,
+            "CD-5": 1
+          },
+          "img_per_class": {
+            "Mesioangular Impaction": 23,
+            "Vertical Impaction": 6,
+            "Distoangular Impaction": 5,
+            "Horizontal Impaction": 16,
+            "Buccolingual  Impaction": 1,
+            "CD-1": 17,
+            "CD-2": 10,
+            "CD-3": 4,
+            "CD-4": 18,
+            "CD-5": 1
+          },
+          "images_present": 0
+        },
+        "TH-1": {
+          "classes": {
+            "0": "Mesioangular Impaction",
+            "1": "Vertical Impaction",
+            "2": "Distoangular Impaction",
+            "3": "Horizontal Impaction",
+            "4": "Buccolingual  Impaction",
+            "5": "Inverted Impaction",
+            "6": "CD-1",
+            "7": "CD-2",
+            "8": "CD-3",
+            "9": "CD-4",
+            "10": "CD-5",
+            "11": "CD-6"
+          },
+          "listed_images": 84,
+          "label_files": 28,
+          "n_objects": 35,
+          "obj_per_class": {
+            "Vertical Impaction": 10,
+            "Distoangular Impaction": 3,
+            "Buccolingual  Impaction": 22
+          },
+          "img_per_class": {
+            "Vertical Impaction": 9,
+            "Distoangular Impaction": 3,
+            "Buccolingual  Impaction": 19
+          },
+          "images_present": 0
+        },
+        "TH-2": {
+          "classes": {
+            "0": "Mesioangular Impaction",
+            "1": "Vertical Impaction",
+            "2": "Distoangular Impaction",
+            "3": "Horizontal Impaction",
+            "4": "Buccolingual  Impaction",
+            "5": "Inverted Impaction",
+            "6": "CD-1",
+            "7": "CD-2",
+            "8": "CD-3",
+            "9": "CD-4",
+            "10": "CD-5",
+            "11": "CD-6"
+          },
+          "listed_images": 514,
+          "label_files": 506,
+          "n_objects": 1436,
+          "obj_per_class": {
+            "Mesioangular Impaction": 189,
+            "Vertical Impaction": 648,
+            "Distoangular Impaction": 98,
+            "Horizontal Impaction": 470,
+            "Buccolingual  Impaction": 29,
+            "Inverted Impaction": 2
+          },
+          "img_per_class": {
+            "Mesioangular Impaction": 138,
+            "Vertical Impaction": 356,
+            "Distoangular Impaction": 73,
+            "Horizontal Impaction": 302,
+            "Buccolingual  Impaction": 22,
+            "Inverted Impaction": 2
+          },
+          "images_present": 0
+        }
+      },
+      "yolo": {
+        "classes": {
+          "0": "Mesioangular Impaction",
+          "1": "Vertical Impaction",
+          "2": "Distoangular Impaction",
+          "3": "Horizontal Impaction",
+          "4": "Buccolingual  Impaction",
+          "5": "Inverted Impaction",
+          "6": "CD-1",
+          "7": "CD-2",
+          "8": "CD-3",
+          "9": "CD-4",
+          "10": "CD-5",
+          "11": "CD-6"
+        },
+        "obj_per_class": {
+          "Mesioangular Impaction": 313,
+          "Vertical Impaction": 702,
+          "Distoangular Impaction": 137,
+          "Horizontal Impaction": 517,
+          "Buccolingual  Impaction": 60,
+          "Inverted Impaction": 7,
+          "CD-1": 21,
+          "CD-2": 14,
+          "CD-3": 4,
+          "CD-4": 20,
+          "CD-5": 1
+        },
+        "img_per_class": {
+          "Mesioangular Impaction": 225,
+          "Vertical Impaction": 396,
+          "Distoangular Impaction": 107,
+          "Horizontal Impaction": 340,
+          "Buccolingual  Impaction": 49,
+          "Inverted Impaction": 5,
+          "CD-1": 17,
+          "CD-2": 10,
+          "CD-3": 4,
+          "CD-4": 18,
+          "CD-5": 1
+        },
+        "invalid": [],
+        "n_objects": 1796,
+        "n_label_files": 686,
+        "by_split": "labels train-only (gambar tidak disertakan)"
+      }
+    }
+  },
+  "duplicates": {
+    "exact_md5_shared_between": {
+      "exan_mtm~mtm": {
+        "n_shared_files": 973,
+        "n_shared_names": 970,
+        "examples": [
+          "cate9-00022.jpg",
+          "cate8-00369.jpg",
+          "cate4-00126.jpg",
+          "cate2-00170.jpg",
+          "cate6-00158.jpg"
+        ]
+      }
+    },
+    "near_dup_within": {
+      "exan_mtm": {
+        "n_files": 973,
+        "n_unique_dhash": 970,
+        "n_near_dup_pairs": 16
+      },
+      "mtm": {
+        "n_files": 1317,
+        "n_unique_dhash": 1312,
+        "n_near_dup_pairs": 19
+      }
+    },
+    "near_dup_between": {}
+  }
+}
