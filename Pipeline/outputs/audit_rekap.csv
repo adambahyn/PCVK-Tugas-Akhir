@@ -1,3 +1,0 @@
-split,n_images,n_labels,n_boxes,n_e_MTM,n_i_MTM,boxes_per_img_mean,boxes_per_img_dist
-train,875,875,1604,624,980,1.833,"{1: 146, 2: 729}"
-valid,98,98,180,63,117,1.837,"{1: 16, 2: 82}"
