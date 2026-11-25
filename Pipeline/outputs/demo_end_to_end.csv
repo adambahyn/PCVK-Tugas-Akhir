@@ -1,0 +1,14 @@
+image,det_class,det_conf,crop_class,crop_conf
+cate1-00007.jpg,i-MTM,0.732,e-MTM,0.565
+cate1-00007.jpg,e-MTM,0.702,e-MTM,0.676
+cate1-00026.jpg,i-MTM,0.756,i-MTM,0.835
+cate1-00026.jpg,i-MTM,0.744,i-MTM,0.884
+cate1-00028.jpg,i-MTM,0.779,i-MTM,0.945
+cate1-00028.jpg,i-MTM,0.763,i-MTM,0.925
+cate1-00031.jpg,i-MTM,0.797,i-MTM,0.947
+cate1-00031.jpg,i-MTM,0.775,i-MTM,0.944
+cate1-00033.jpg,i-MTM,0.754,i-MTM,0.911
+cate1-00033.jpg,e-MTM,0.608,e-MTM,0.581
+cate1-00033.jpg,i-MTM,0.313,e-MTM,0.577
+cate1-00045.jpg,e-MTM,0.67,e-MTM,0.806
+cate1-00045.jpg,e-MTM,0.641,e-MTM,0.845

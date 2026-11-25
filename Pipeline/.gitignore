@@ -1,0 +1,7 @@
+# Artefak besar / dapat dibuat ulang: tidak di-push
+outputs/crops/
+outputs/annotated/
+outputs/runs/
+outputs/*.log
+*.pt
+__pycache__/

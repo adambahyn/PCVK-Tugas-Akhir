@@ -1,0 +1,5 @@
+﻿dataset,n_images,n_openable,n_corrupt,n_objects,n_label_files,resolusi_min,resolusi_maks,ukuran,format,kelas,bbox_valid,bbox_invalid
+"archive (public PR dataset, segmentation masks)",2956,2956,0,,,227x227,227x227,16.8MB,JPEG,,,
+ExAn-MTM (expert annotated),973,973,0,1784,973,1991x1127,1991x1127,144.2MB,JPEG,0:e-MTM (erupted); 1:i-MTM (impacted),1784,0
+m-TM,1317,1317,0,,,1991x1127,1991x1127,196.1MB,JPEG,,,
+Multi-Label Classification and Detection of Third Molar Impaction,0 (hanya label; 9 gambar contoh di folder Code),,,1796,686,x,x,,,0:Mesioangular Impaction; 1:Vertical Impaction; 2:Distoangular Impaction; 3:Horizontal Impaction; 4:Buccolingual  Impaction; 5:Inverted Impaction; 6:CD-1; 7:CD-2; 8:CD-3; 9:CD-4; 10:CD-5; 11:CD-6,1796,0
